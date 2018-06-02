@@ -224,7 +224,7 @@ function checkScroll() {
 	var eventframes = $(".eventframe");
 	for(var i = 0; i < eventframes.length; i++) {
 		var ef = eventframes[i];
-		accumulatedHeight += ef.scrollHeight + 130;
+		accumulatedHeight += ef.scrollHeight + 100;
 		if(content.scrollTop() < accumulatedHeight) {
 			var ttag = $("#e" + i)[0];
 			var mark = $('#tbdecor2')[0];
