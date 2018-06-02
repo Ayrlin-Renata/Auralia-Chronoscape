@@ -1,0 +1,209 @@
+html {
+	background-color: #000000;
+	overflow: hidden;
+	height: 100%;
+	/*perspective: 3000px;*/
+}
+body {
+	margin: 0px;
+	/*transform: rotateY(20deg) rotateX(1deg);*/
+	height: 100%;
+}
+h1 {
+	font-family: Jura;
+	font-size: 64px;
+	text-shadow: 0px 0px 10px #000000;
+}
+h2 {
+	font-family: Jura;
+	font-size: 40px;
+	text-shadow: 0px 0px 7px #000000;
+}
+h3 {
+	font-family: Jura;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 5px #FFFFFF;
+}
+p {
+	font-family: Jura;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-indent: 50px;
+	margin-bottom: 18px;
+	margin-top: 18px;
+}
+div {
+	font-family: Jura;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  
+}
+
+.ttag {
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-top: 20px;
+	user-select: none;
+	cursor: default;
+}
+.tstamp {
+	color: #000000;
+	font-family: Jura;
+	font-size: 14px;
+}
+.stitle {
+	color: #000000;
+	font-family: Jura;
+	font-size: 20px;
+}
+.date {
+	height: 0px;
+	opacity: 0px;
+}
+.ttblip {
+	position: absolute;
+	left: 0px;
+	
+}
+.eventframe {
+	margin-bottom: 50px;
+	text-align: left;
+	position: relative;
+	margin: 0px;
+}
+.eventframe h3 {
+	text-align: center;
+}
+.text {
+	padding-bottom: 5px;
+}
+.tlcontainer {
+	position: relative;
+	width: 10px;
+	z-index: -1;
+}
+.textline {
+	width: 1px;
+	background-color: #00AAFF;
+}
+.tlbar {
+	z-index: -1;
+	background-color: #080808;
+	position: absolute;
+	margin-left: 1px;
+}
+.tlspike {
+	width: 3px;
+	background-color: #00AAFF;
+	height: 1px;
+	position: absolute;
+}
+.titledate {
+	color: #00AAFF;
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	font-size: 20px;
+}
+.scrolltag {
+	height: 0px;
+	opacity: 0;
+}
+
+#timebar {
+	height: 100%;
+	position: fixed;
+	overflow: scroll;
+	overflow-x: hidden;
+	transition: 1s;
+	background-color: #060606;
+	min-width: 300px;
+	float: left; 
+	position: relative;
+}
+#tbdecor1 {
+	background-color: #000000;
+	margin-left: 5px;
+	width: 1px;
+	height: 100%;
+	position: fixed;
+}
+#tbdecor2, #tbdecor2dead {
+	background-color: #FFFFFF;
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	margin-top: 7px;
+	left: 14px;
+}
+#scrolltop {
+	height: 100%;
+}
+#scrollbottom {
+	height: 100%;
+}
+
+#scrollnote {
+	margin-left: 15px;
+	height: 350px;
+	position: fixed;
+	float: left;
+	width: 30px;
+	bottom: -350px;
+	z-index: 1;
+	font-size: 35px;
+	line-height: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 0px 0px 5px #55AAFF;
+}
+#timebarspacer {
+	width: 10%;
+	min-width: 50px;
+	position: relative;
+	float: left;
+	height: 100%;
+}
+#toppage {
+	user-select: none;
+	cursor: default;
+	position: relative;
+	float: left;
+	width: 60%;
+	background-color: #060606;
+}
+#toptitle1 {
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	transition: 2s;
+}
+#toptitle2 {
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	transition: 2.5s;
+}
+#decor1 {
+	color: #00AAFF;
+	background-color: #00AAFF;
+	height: 1px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+#content {
+	overflow: scroll;
+	height: 100%;
+	float: left;
+	position: static;
+	width: 60%;
+}
+#efscrollbottom {
+	height: 100%;
+}
